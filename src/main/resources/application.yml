@@ -1,0 +1,20 @@
+app:
+  title: Q&A REST API
+  version: v1.0
+  prefix: api
+  secret-key: vnkjdfnmgiioj34n4ijkgnkjdjf120jvakslncq0rhvjslq-webcnmx,zhweurv0
+spring:
+  jpa:
+    defer-datasource-initialization: true
+  banner:
+    location: banner.txt
+server:
+  port: 8081
+springdoc:
+  swagger-ui:
+    doc-expansion: list
+    tagsSorter: alpha
+    display-request-duration: true
+    groups-order: asc
+    path: /api-docs
+  show-actuator: false

@@ -1,0 +1,13 @@
+package com.github.kestivvi.qna_rest_api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class QnaRestApiApp {
+
+    public static void main(String[] args) {
+        SpringApplication.run(QnaRestApiApp.class, args);
+    }
+
+}
